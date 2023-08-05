@@ -1,0 +1,10 @@
+### usertest
+POST  http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "username": "pepe",
+  "password": "123",
+  "fullName": "pepe123"
+}
+

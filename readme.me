@@ -1,0 +1,38 @@
+API -> REST (verbos de internet)
+
+HTTP 4) GET, POST, PUT, DELETE
+
+1) Crear un usuario
+
+POST /users
+
+{
+ "username": "pepe",
+ "password": "dldld"
+ "fullName": "pepe argento"
+}
+
+201 OK
+
+2) Consultar si el usuario es valido con la contrasenia
+
+POST /users/login
+
+{
+ "username": "pepep"
+ "password": "pdpdp"
+}
+
+200 OK
+401 No tiene permiso
+
+3) Traer todo los usuarios
+
+GET /users
+[
+ {username: "pepe", fullname: "pepe argento"},
+  {username: "pepe", fullname: "pepe argento"},
+
+]
+
+200 ok
