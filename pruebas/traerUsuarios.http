@@ -1,2 +1,2 @@
 ### traer usuarios
-GET http://localhost:3000/users
+GET {{endpoint}}/users
